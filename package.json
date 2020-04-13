@@ -1,0 +1,28 @@
+{
+  "name": "plantingregister-api",
+  "version": "1.0.0",
+  "description": "Home controll planting",
+  "main": "index.js",
+  "scripts": {
+    "watch-ts": "tsc -w",
+    "watch-node": "nodemon dist/server.js",
+    "watch": "concurrently -k -p \"[{name}]\" -n \"TypeScript, Node\" -c \"yello.bold, cyan.bold\" \"yarn run watch-ts\" \"yarn run watch-node\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felipefranca/plantingregister-api.git"
+  },
+  "author": "Felipe França",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipefranca/plantingregister-api/issues"
+  },
+  "homepage": "https://github.com/felipefranca/plantingregister-api#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.3"
+  }
+}
