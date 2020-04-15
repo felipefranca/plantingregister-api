@@ -1,6 +1,7 @@
 # plantingregister
 Home planting registration and control
 
-https://sequelize.org/
-https://www.typescriptlang.org/
-https://nodejs.org/en/
+##  Stack 
+[sequilize] https://sequelize.org/
+[typescript] https://www.typescriptlang.org/
+[nodejs] https://nodejs.org/en/
