@@ -1,9 +1,9 @@
-import { Request, Respose } from 'express';
+import { Request, Response } from 'express';
 
-export let hi = (req: Request, res: Respose) => {
+export let hi = (req: Request, res: Response) => {
     res.send("Hello");
 }
 
-export let awesome = (req: Request, res: Respose) => {
+export let awesome = (req: Request, res: Response) => {
     res.send("Everithing is awesome");
 }
